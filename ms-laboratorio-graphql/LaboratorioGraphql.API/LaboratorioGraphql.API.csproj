@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="HotChocolate.AspNetCore" Version="10.5.3" />
+		<PackageReference Include="HotChocolate.AspNetCore.Playground" Version="10.5.3" />
+		<PackageReference Include="GraphQLUtilitiesMicroServices" Version="1.0.1" />
+		<PackageReference Include="HotChocolate.Types.Filters" Version="10.5.3" />
+		<PackageReference Include="HotChocolate.Types.Selections" Version="10.5.3" />
+		<PackageReference Include="HotChocolate.Types.Sorting" Version="10.5.3" />
+	</ItemGroup>
+	
+	
+  <ItemGroup>
+    <ProjectReference Include="..\Laboratorio-graphql.domain\Laboratorio-graphql.Domain.csproj" />
+    <ProjectReference Include="..\Laboratorio-graphql.infraestructure\Laboratorio-graphql.Infraestructure.csproj" />
+  </ItemGroup>
+
+</Project>

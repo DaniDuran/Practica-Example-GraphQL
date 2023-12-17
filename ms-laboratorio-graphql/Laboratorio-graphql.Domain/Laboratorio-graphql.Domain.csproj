@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Laboratorio_graphql.domain</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="GraphQLUtilitiesMicroServices" Version="1.0.1" />	
+  </ItemGroup>
+	
+  <ItemGroup>
+    <ProjectReference Include="..\Laboratorio-graphql.infraestructure\Laboratorio-graphql.Infraestructure.csproj" />
+  </ItemGroup>
+
+</Project>
